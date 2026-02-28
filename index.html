@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание №2</title>
+     <style>
+        .rif-ok {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+        }
+        body 
+        {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #585858;
+            color: white;
+            padding: 20px 15px;
+            text-align: center;
+        }
+
+        .header-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .footer
+        {
+                width: 100%;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #857f83;
+                color: aliceblue;
+        }
+        .footer-wrapper
+        {
+                width: 100%;
+                text-align: center;
+                padding: 0 15px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">Задание №2</h1>
+    </header>
+    <main>
+        <ol>
+            <li>
+                <a>Получить главную страницу методом GET в протоколе HTTP 1.0. После *Request completely sent off получаем текст записанный в файле php, фраза 404 not found является частью строк, а не ошибкой.</a>
+                <img src="./r1.png" alt="1" class="rif-ok">
+                <img src="./r1.1.png" alt="1" class="rif-ok">
+            </li>
+            <li>
+                <a>Получить внутреннюю страницу методом GET в протоколе HTTP 1.1. Здесь получаем внутренний файл каталога files - image.png (GET /image.png HTTP/1.1).</a>
+                <img src="./r2.png" alt="1" class="rif-ok">
+            </li>
+            <li>
+                <a>Определить размер файла file.tar.gz, не скачивая его. Размер файла 11335 байт (строки Accept-Ranges и Content-Length).</a>
+                <img src="./r3.png" alt="1" class="rif-ok">
+            </li>
+            <li>
+                <a>Определить медиатип ресурса /image.png. (строка Content-type, здесь медиатип image/png)</a>
+                <img src="./r4.png" alt="1" class="rif-ok">
+            </li>
+            <li>
+                <a>Отправить комментарий на сервер по адресу /index.php.</a>
+                <img src="./r5.png" alt="1" class="rif-ok">
+            </li>
+            <li>
+                <a>Получить первые 100 байт файла /file.tar.gz. (по строке, отвечающей за величину файла (Content-Length и Accept-Ranges) можем убедиться в том, что получили именно 100 байтов.)</a>
+                <img src="./r6.png" alt="1" class="rif-ok">
+            </li>
+            <li>
+                <a>Определить кодировку ресурса /index.php. (charset=UTF-8)</a>
+                <img src="./r7.png" alt="1" class="rif-ok">
+            </li>
+        </ol>
+    </main>
+<footer class="footer">
+        <div class="footer-wrapper">
+            <p class="footer-cop">(с) Алборова Полина</p>
+        </div>
+</footer>
+</body>
+
+
+
+
+
+
